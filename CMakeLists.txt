@@ -33,7 +33,7 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY launch models scripts urdf 
   DESTINATION share/${PROJECT_NAME}
 )
 
